@@ -1,0 +1,64 @@
+/* GENERAL */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Helvetica";
+}
+
+
+/* GENERAL */
+
+/* HEADER START */
+.company {
+  display: flex;
+  width: 100%
+  /* margin: 0 auto; */
+  justify-content: center;
+  background-image:url(glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 20rem;
+  margin-top: 1rem;
+  /* padding: 1rem 2rem 1rem 2rem; */
+  font-size: 1rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3.5rem;
+}
+
+.logo {
+display: flex;
+justify-content: space between;
+}
+
+.logo span {
+  /* align-items: center; */
+  padding: 1.4rem 1rem 1rem 2rem;
+  font-size: 1rem;
+}
+
+.logo img {
+  padding: 1rem 0 1rem 1rem;
+  height: 1.5rem;
+  margin-left: 2rem
+}
+
+.nav {
+  padding: 1rem 2rem 1rem 0;
+}
+
+.nav .space {
+  padding-right: 2rem;
+}
