@@ -18,7 +18,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* height: 30rem; */
+  height: 30rem;
   z-index: 1;
 }
 
@@ -63,12 +63,35 @@ justify-content: space between;
   padding-right: 2rem;
 }
 
-.flex-container {
+.white_box {
   display: flex;
-  justify-content: flex-end;
-  /* max-width: 960px; */
-  background-color: black;
-  flex-direction: column;
+  margin-top: 10rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  color: grey;
 }
+
+/* .content {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+} */
+
+.empty_box {
+  display: flex;
+  /* align-items: center; */
+  height: 5rem;
+  /* width: 100%; */
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 5rem;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-top: 7rem;
+  margin-right:30rem;
+}
+
 
 /* HEADER END */
