@@ -46,8 +46,16 @@ header {
   margin-left: 2rem
 }
 
+.logo2 {
+  display: none;
+}
+
 .nav {
   padding: 1rem 2rem 1rem 0;
+}
+
+.nav2 {
+  display: none;
 }
 
 .nav .space {
@@ -103,7 +111,6 @@ header {
 
 .service .paper{
   width: 3.5rem;
-  margin
 }
 
 .service .ruler{
@@ -165,6 +172,10 @@ footer {
   margin-right: 1rem;
 }
 
+.end2 {
+  display: none;
+}
+
 .end img {
   height: 1.5rem;
   margin-left: 2rem;
@@ -187,7 +198,7 @@ footer {
 /* touch only media query!!! */
 
 @media only screen and
-(max-width: 1024px) and (min-width: 768px) {
+(max-width: 1024px) and (min-width: 481px) {
 
   .container {
   width: 100%;
@@ -206,6 +217,113 @@ footer {
     font-size: 1.33rem;
   }
   footer {
-    margin: 5rem auto;
+    margin: 5rem auto 0 auto;
+  }
+}
+
+@media only screen and
+ (max-width: 480px) {
+
+  .container {
+    width: 100%;
+  }
+  header {
+    padding-top: 0;
+    height: 17rem;
+    background-position: 20%;
+  }
+  .main-banner {
+    display: flex;
+    align-items: center;
+    margin-top: 9rem;
+    margin right: 0;
+    margin-left: 0
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 3rem;
+  }
+  .main-banner h1 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .flex-container {
+    justify-content: flex-start;
+  }
+  .logo {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .logo2 {
+    display: inline-block;
+  }
+  .logo2 img {
+    padding: 1rem 0 1rem 0rem;
+    height: 1.5rem;
+    margin-left: 2rem
+  }
+  .nav2 {
+    display: inline-block;
+  }
+  .nav2 {
+    padding: 1rem 2rem 1rem 0;
+  }
+  .support {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service span {
+    font-size: 0.77rem;
+  }
+  .service img {
+    padding-bottom: 0rem;
+  }
+  #paper-phone {
+    margin-top: 3.77rem;
+  }
+  #delivery-phone {
+    margin-bottom: 3.77rem;
+  }
+  .service {
+    margin-top: 1.54rem;
+    margin-bottom: 0;
+  }
+  .about {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    font-size: 0.77rem;
+    text-align: left;
+  }
+  .info .title {
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-right: 0;
+    flex-grow: 4
+    text-align: center;
+  }
+  .title {
+    padding-left: 10rem;
+    padding-right: 15rem;
+  }
+  .info p {
+    margin: 1rem 0.5rem 4rem 0.5rem;
+  }
+  footer {
+    margin-top: 0;
+    justify-content: center;
+  }
+  .end {
+    display: none;
+  }
+  .end2 {
+    display: inline-block;
+  }
+  .end2 img {
+    height: 1.5rem;
   }
 }
