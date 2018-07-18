@@ -182,31 +182,30 @@ footer {
 
 /* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
 /* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
-/* DO NOT TOUCH ABOVE!!!!!!!!!!!!! */
+
 
 /* touch only media query!!! */
+
+@media only screen and
+(max-width: 1024px) and (min-width: 768px) {
+
+  .container {
+  width: 100%;
+  }
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+  .main-banner {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 4.83rem;
+  }
+  .main-banner h1 {
+    padding: 0.80rem 4rem 0.75 4rem;
+    font-size: 1.33rem;
+  }
+  footer {
+    margin: 5rem auto;
+  }
+}
