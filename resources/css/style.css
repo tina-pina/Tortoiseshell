@@ -84,7 +84,7 @@ header {
   font-weight: bold;
   text-align: center;
   padding: 1.5rem 5rem;
-  line-height: 2.4rem;
+  line-height: 1rem;
 }
 /* HEADER END */
 
@@ -237,6 +237,7 @@ footer {
 
   html {
     min-width: 15rem;
+    line-height: 1.4rem;
   }
   .container {
     width: 100%;
@@ -284,21 +285,25 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .service {
+    margin: 0;
+  }
   .service span {
     font-size: 0.77rem;
+    line-height: 1.8;
   }
   .service img {
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
   }
   #paper-phone {
-    margin-top: 3.77rem;
+    margin: 3.77rem 0 1rem 0;
   }
   #delivery-phone {
     margin-bottom: 3.77rem;
   }
   .service {
-    margin-top: 1.54rem;
     margin-bottom: 0;
+    justify-content: center;
   }
   .about {
     width: 100%;
