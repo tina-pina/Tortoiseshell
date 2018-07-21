@@ -198,7 +198,7 @@ footer {
 /* touch only media query!!! */
 
 @media only screen and
-(max-width: 1024px) and (min-width: 481px) {
+(max-width: 1024px) {
 
   .container {
   width: 100%;
@@ -214,7 +214,7 @@ footer {
   }
   .main-banner h1 {
     padding: 0.80rem 4rem 0.75 4rem;
-    font-size: 1.33rem;
+    font-size: 1.2rem;
   }
   footer {
     margin: 5rem auto 0 auto;
@@ -222,8 +222,22 @@ footer {
 }
 
 @media only screen and
+(max-width: 750px) {
+  header nav {
+    display: none;
+  }
+  header .nav2 {
+    display: block;
+    margin-right: 1.2rem;
+  }
+}
+
+@media only screen and
  (max-width: 480px) {
 
+  html {
+    min-width: 15rem;
+  }
   .container {
     width: 100%;
   }
@@ -235,17 +249,12 @@ footer {
   .main-banner {
     display: flex;
     align-items: center;
-    margin-top: 9rem;
-    margin right: 0;
-    margin-left: 0
-    margin-bottom: 5rem;
+    margin: 9rem 0 0 0;
     width: 100%;
-    height: 3rem;
+    /* height: 3rem; */
   }
   .main-banner h1 {
     font-size: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
   .flex-container {
     justify-content: flex-start;
@@ -266,6 +275,7 @@ footer {
   }
   .nav2 {
     display: inline-block;
+    margin-right: 0rem;
   }
   .nav2 {
     padding: 1rem 2rem 1rem 0;
